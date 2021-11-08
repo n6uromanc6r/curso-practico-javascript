@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500;800&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+//colores
+
+$rojo :rgb(214, 5, 5); 
+$azul: rgb(48, 48, 197);
+$amarillo:rgb(185, 172, 54);
+body {
+    background:rgb(209, 209, 209);
+    font-family: 'Jost', sans-serif;
+    font-size: 62.5%;
+}
+
+header{
+    padding: 4em;
+    h1{
+        font-size: 6em;
+        text-align: center;
+        font-weight: 800;
+    }
+    p{
+        font-size: 4em;
+        text-align: center;
+        font-weight: 300;
+    }
+}
+
+main{
+    max-width: 80%;
+    margin: 0 auto;
+
+#figuras{
+    display: flex;
+    color:#fff;
+    h2{
+        font-size: 3em;
+        margin-bottom: 1em;
+        font-weight: 500;
+    }
+    label  {
+        font-size: 2em;
+        display: block;
+        margin-bottom: .5em;
+        font-weight: 300;
+    }
+    input{
+        display: block;
+        width: 100%;
+        padding: 1em 0.5em;
+        font-size: 2em;
+    }
+    div{
+        margin-bottom: 1em;
+    }
+    button{
+        display: block;
+        width: 100%;
+        font-size: 2em;
+        padding: 1em;
+        margin-bottom: 1em;
+        border: 0;
+        outline: 0;
+        border-radius:25px
+
+    }
+
+    #cuadrado{
+        background: $rojo;
+        padding: 4em;
+        width: 33%;
+        margin: 1%;
+        border: 2px solid #000;
+        input{
+            background: lighten($rojo, 40%);
+            outline: 0;
+            border: 0;
+            border-radius: 5px;
+            margin: 1em 0;
+            transition:all .7s;
+            &:focus{
+                background: lighten($rojo, 60%);
+            }
+        }
+        button{
+            background: lighten($rojo, 20%);
+            color: lighten($rojo, 60%);
+            box-shadow: 0 0 2px rgba(0,0,0,.2);
+        }
+    }
+
+    #triangulo{
+        background: $azul;
+        padding: 4em;
+        width: 33%;
+        margin: 1%;
+        border: 2px solid #000;
+        input{
+            background: lighten($azul, 40%);
+            outline: 0;
+            border: 0;
+            border-radius: 5px;
+            margin: 1em 0;
+            transition:all .7s;
+            &:focus{
+                background: lighten($azul, 60%);
+            }
+        }
+        button{
+            background: lighten($azul, 20%);
+            color: lighten($azul, 60%);
+            box-shadow: 0 0 2px rgba(0,0,0,.2);
+        }
+    }
+
+    #circulo{
+        background:$amarillo;
+        padding: 4em;
+        width: 33%;
+        margin: 1%;
+        border: 2px solid #000;
+        input{
+            background: lighten($amarillo, 40%);
+            outline: 0;
+            border: 0;
+            border-radius: 5px;
+            margin: 1em 0;
+            transition:all .7s;
+            &:focus{
+                background: lighten($amarillo, 60%);
+            }
+        }
+        button{
+            background: lighten($amarillo, 20%);
+            color: lighten($amarillo, 60%);
+            box-shadow: 0 0 2px rgba(0,0,0,.2);
+        }
+    }
+}
+
+  
+}

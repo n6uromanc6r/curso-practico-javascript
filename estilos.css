@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;500;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #d1d1d1;
+  font-family: 'Jost', sans-serif;
+  font-size: 62.5%;
+}
+
+header {
+  padding: 4em;
+}
+
+header h1 {
+  font-size: 6em;
+  text-align: center;
+  font-weight: 800;
+}
+
+header p {
+  font-size: 4em;
+  text-align: center;
+  font-weight: 300;
+}
+
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+main #figuras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+main #figuras h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+
+main #figuras label {
+  font-size: 2em;
+  display: block;
+  margin-bottom: .5em;
+  font-weight: 300;
+}
+
+main #figuras input {
+  display: block;
+  width: 100%;
+  padding: 1em 0.5em;
+  font-size: 2em;
+}
+
+main #figuras div {
+  margin-bottom: 1em;
+}
+
+main #figuras button {
+  display: block;
+  width: 100%;
+  font-size: 2em;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 0;
+  outline: 0;
+  border-radius: 25px;
+}
+
+main #figuras #cuadrado {
+  background: #d60505;
+  padding: 4em;
+  width: 33%;
+  margin: 1%;
+  border: 2px solid #000;
+}
+
+main #figuras #cuadrado input {
+  background: #fdaaaa;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  margin: 1em 0;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+main #figuras #cuadrado input:focus {
+  background: white;
+}
+
+main #figuras #cuadrado button {
+  background: #fb4646;
+  color: white;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+main #figuras #triangulo {
+  background: #3030c5;
+  padding: 4em;
+  width: 33%;
+  margin: 1%;
+  border: 2px solid #000;
+}
+
+main #figuras #triangulo input {
+  background: #cecef3;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  margin: 1em 0;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+main #figuras #triangulo input:focus {
+  background: white;
+}
+
+main #figuras #triangulo button {
+  background: #7c7cdf;
+  color: white;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+main #figuras #circulo {
+  background: #b9ac36;
+  padding: 4em;
+  width: 33%;
+  margin: 1%;
+  border: 2px solid #000;
+}
+
+main #figuras #circulo input {
+  background: #f0eccb;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  margin: 1em 0;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+main #figuras #circulo input:focus {
+  background: white;
+}
+
+main #figuras #circulo button {
+  background: #d9d07c;
+  color: white;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=estilos.css.map */
